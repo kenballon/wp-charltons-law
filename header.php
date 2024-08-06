@@ -18,6 +18,15 @@
 
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
-    <header>
-        <div>header here</div>
+    <header class="py-8">
+        <div class="container flex space-between">
+            <div class="logo-wrapper">
+                Logo Here
+            </div>
+            <nav class="nav-wrapper flex gap-1">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
     </header>
