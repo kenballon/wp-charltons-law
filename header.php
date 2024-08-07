@@ -22,12 +22,21 @@
             wp_body_open();
         }
     ?>
-    <header class="py-8">
-        <div class="container flex space-between">
-            <div class="logo-wrapper">
+    <header class="p-5 md:p-8 bg-gray-950 text-gray-50">
+        <div class="container mx-auto flex justify-between">
+            <div class="logo-wrapper uppercase font-medium tracking-wider">
                 Logo Here
             </div>
-            <nav class="nav-wrapper flex gap-1">
+            <?php
+                wp_nav_menu([
+                    'theme_location' => 'primary-menu',
+                    'container' => '',
+                    'fallback_cb' => '',
+                    'echo' =>
+                        false, 'items_wrap' => '%3$s'
+                ]);
+            ?>
+            <nav class="nav-wrapper flex gap-2">
                 <a href="#">Home</a>
                 <a href="#">About</a>
                 <a href="#">Contact Us</a>

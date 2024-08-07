@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overscroll-behavior: none;
+}
+
+footer {
+    margin-top: auto;
+}
