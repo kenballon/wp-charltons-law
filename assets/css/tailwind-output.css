@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.8 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.7 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -617,21 +617,6 @@ video {
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
-
-.bg-gray-950 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(3 7 18 / var(--tw-bg-opacity));
-}
-
-.bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
-.bg-emerald-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 
 .p-5 {
