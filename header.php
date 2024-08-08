@@ -22,7 +22,7 @@
             wp_body_open();
         }
     ?>
-    <header class="p-5 md:p-8 bg-gray-950 text-gray-50">
+    <header class="p-5 md:p-8 bg-gray-900 text-gray-50">
         <div class="container mx-auto flex justify-between">
             <div class="logo-wrapper uppercase font-medium tracking-wider">
                 Logo Here
